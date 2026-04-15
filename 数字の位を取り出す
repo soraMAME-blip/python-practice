@@ -1,0 +1,8 @@
+n=int(input("三桁の整数#))
+hyaku=n//100
+juu=(n%100)//10
+ichi=n%10
+
+print(f"百の位は{hyaku}")
+print(f"十の位は{juu}")
+print(f"一の位は{ichi}")
